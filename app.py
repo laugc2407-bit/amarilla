@@ -19,11 +19,11 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
+st.subheader("Un cuentico")
 st.write('Había una vez un gato llamado Miel que caminaba como si el mundo fuera una pasarela hecha solo para él. Tenía los bigotes siempre bien peinados y los ojos brillantes de pura alegría.'
 'Cada mañana saludaba al sol con un estiramiento elegante, como diciendo: “sí, soy así de hermoso”. Cuando pasaba frente a las ventanas, se miraba en el reflejo y guiñaba un ojo, convencido de que el universo le devolvía el coqueteo.'
 'Pero lo más bonito de Miel no era su porte encantador, sino su felicidad contagiosa: ronroneaba fuerte, regalaba cabezazos cariñosos y convertía cualquier rincón en una fiesta suave de patitas y ternura.'
-'Y así, entre miradas traviesas y saltos ligeros, Miel conquistaba corazones… uno maullido coqueto a la vez.')
+'Y así, entre miradas traviesas y saltos ligeros, Miel conquistaba todos los corazones.')
         
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
