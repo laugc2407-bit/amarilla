@@ -7,8 +7,8 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión de Texto a Audio")
-image = Image.open('gato_raton.png')
+st.title("Miel coqueton")
+image = Image.open('gaton.jpg')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
@@ -20,17 +20,18 @@ except:
     pass
 
 st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
-         '  '
-         ' Franz Kafka.'
+st.write('Había una vez un gato llamado Miel que caminaba como si el mundo fuera una pasarela hecha solo para él. Tenía los bigotes siempre bien peinados y los ojos brillantes de pura alegría.
+
+Cada mañana saludaba al sol con un estiramiento elegante, como diciendo: “sí, soy así de hermoso”. Cuando pasaba frente a las ventanas, se miraba en el reflejo y guiñaba un ojo, convencido de que el universo le devolvía el coqueteo.
+
+Pero lo más bonito de Miel no era su porte encantador, sino su felicidad contagiosa: ronroneaba fuerte, regalaba cabezazos cariñosos y convertía cualquier rincón en una fiesta suave de patitas y ternura.
+
+Y así, entre miradas traviesas y saltos ligeros, Miel conquistaba corazones… uno maullido coqueto a la vez.'
         
         )
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
-text = st.text_area("Ingrese El texto a escuchar.")
+text = st.text_area("Ingresa el texto para escuchar.")
 
 tld='com'
 option_lang = st.selectbox(
