@@ -25,7 +25,6 @@ st.write('Había una vez un gato llamado Miel que caminaba como si el mundo fuer
 'Pero lo más bonito de Miel no era su porte encantador, sino su felicidad contagiosa: ronroneaba fuerte, regalaba cabezazos cariñosos y convertía cualquier rincón en una fiesta suave de patitas y ternura.'
 'Y así, entre miradas traviesas y saltos ligeros, Miel conquistaba corazones… uno maullido coqueto a la vez.')
         
-        )
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingresa el texto para escuchar.")
