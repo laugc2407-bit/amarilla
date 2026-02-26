@@ -26,7 +26,7 @@ Cada mañana saludaba al sol con un estiramiento elegante, como diciendo: “sí
 
 Pero lo más bonito de Miel no era su porte encantador, sino su felicidad contagiosa: ronroneaba fuerte, regalaba cabezazos cariñosos y convertía cualquier rincón en una fiesta suave de patitas y ternura.
 
-Y así, entre miradas traviesas y saltos ligeros, Miel conquistaba corazones… uno maullido coqueto a la vez.'
+Y así, entre miradas traviesas y saltos ligeros, Miel conquistaba corazones… uno maullido coqueto a la vez.')
         
         )
            
